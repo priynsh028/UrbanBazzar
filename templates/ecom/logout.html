@@ -1,0 +1,66 @@
+{% extends 'ecom/homebase.html' %}
+{% load static %}
+{% block content %}
+
+<head>
+    <style>
+        .logout-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+        }
+
+        .logout-card {
+            max-width: 400px;
+            width: 100%;
+            background: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .logout-image {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 15px;
+        }
+
+        .logout-title {
+            color: #333;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .logout-message {
+            color: #777;
+            font-size: 16px;
+        }
+
+        .logout-btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .logout-btn:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<br><br>
+<div class="logout-container">
+    <div class="logout-card">
+        <img src="{% static 'images/logout.png' %}" alt="Logout Image" class="logout-image">
+        <h2 class="logout-title">You've Logged Out Successfully!</h2>
+        <p class="logout-message">Thank you for visiting. We hope to see you again soon.</p>
+        <a href="/" class="logout-btn">Return to Home</a>
+    </div>
+</div>
+{% endblock content %}
