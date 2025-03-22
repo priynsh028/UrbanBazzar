@@ -17,8 +17,8 @@ UrbanBazzar is an e-commerce platform offering a variety of products, including 
 - **Payment Gateway**: Razorpay Integration
 
 ## 📸 Screenshots
-### Homepage
-![UrbanBazzar Homepage](Screenshot/127.0.0.1_8000_ (1).png)
+### Aboutuspage
+![UrbanBazzar Aboutuspage](Screenshot/aboutus.png)
 
 ## 📌 Installation Guide
 1. **Clone the repository**  
