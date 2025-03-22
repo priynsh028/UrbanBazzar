@@ -2,7 +2,7 @@
 
 UrbanBazzar is an e-commerce platform offering a variety of products, including fashion, electronics, and lifestyle essentials.
 
-![UrbanBazzar Homepage](Screenshot/127.0.0.1_8000_ (1).png)
+![UrbanBazzar Homepage](Screenshot/127.0.0.1_8000_(1).png)
 
 ## 🚀 Features
 - **User Authentication**: Login & Signup functionality.
