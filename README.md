@@ -32,4 +32,4 @@ UrbanBazzar is an e-commerce platform offering a variety of products, including 
 5. Start the server
 
 📌 Developed By: Priynsh Vanra
-📝 © 2023 UrbanBazzar
+📝 © 2025 UrbanBazzar
